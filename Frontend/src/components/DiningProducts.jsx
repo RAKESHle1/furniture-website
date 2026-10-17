@@ -62,42 +62,42 @@ import tables2Img from '../assets/dining/tables2.jpg';
 
 const diningProducts = [
     // 2 Seater
-    { id: 201, name: "Compact 2-Seater Dining Set", price: "₹18,500", image: twoSeater1Img, category: "2 Seater" },
-    { id: 202, name: "Wooden 2-Seater Table", price: "₹16,999", image: twoSeater2Img, category: "2 Seater" },
-    { id: 203, name: "Classic 2-Seater Set", price: "₹19,500", image: twoSeater3Img, category: "2 Seater" },
-    { id: 204, name: "Modern 2-Seater Dining", price: "₹21,000", image: twoSeater4Img, category: "2 Seater" },
-    { id: 205, name: "Minimalist 2-Seater", price: "₹15,500", image: twoSeater5Img, category: "2 Seater" },
+    { id: 201, name: "Compact 2-Seater Dining Set", price: "₹45,000", image: twoSeater1Img, category: "2 Seater" },
+    { id: 202, name: "Wooden 2-Seater Table", price: "₹38,000", image: twoSeater2Img, category: "2 Seater" },
+    { id: 203, name: "Classic 2-Seater Set", price: "₹45,000", image: twoSeater3Img, category: "2 Seater" },
+    { id: 204, name: "Modern 2-Seater Dining", price: "₹60,000", image: twoSeater4Img, category: "2 Seater" },
+    { id: 205, name: "Minimalist 2-Seater", price: "₹48,000", image: twoSeater5Img, category: "2 Seater" },
 
     // 4 Seater
-    { id: 210, name: "Family 4-Seater Dining Set", price: "₹32,000", image: fourSeater1Img, category: "4 Seater" },
-    { id: 211, name: "Elegant 4-Seater Table", price: "₹35,500", image: fourSeater2Img, category: "4 Seater" },
-    { id: 212, name: "Premium 4-Seater Set", price: "₹38,000", image: fourSeater3Img, category: "4 Seater" },
-    { id: 213, name: "Glass Top 4-Seater", price: "₹29,999", image: fourSeater4Img, category: "4 Seater" },
-    { id: 214, name: "Contemporary 4-Seater", price: "₹34,500", image: fourSeater5Img, category: "4 Seater" },
-    { id: 215, name: "Stylish 4-Seater Dining", price: "₹36,000", image: fourSeater6Img, category: "4 Seater" },
-    { id: 216, name: "Compact 4-Seater", price: "₹31,500", image: fourSeater7Img, category: "4 Seater" },
+    { id: 210, name: "Family 4-Seater Dining Set", price: "₹65,000", image: fourSeater1Img, category: "4 Seater" },
+    { id: 211, name: "Elegant 4-Seater Table", price: "₹55,000", image: fourSeater2Img, category: "4 Seater" },
+    { id: 212, name: "Premium 4-Seater Set", price: "₹55,000", image: fourSeater3Img, category: "4 Seater" },
+    { id: 213, name: "Glass Top 4-Seater", price: "₹58,000", image: fourSeater4Img, category: "4 Seater" },
+    { id: 214, name: "Contemporary 4-Seater", price: "₹75,000", image: fourSeater5Img, category: "4 Seater" },
+    { id: 215, name: "Stylish 4-Seater Dining", price: "₹75,000", image: fourSeater6Img, category: "4 Seater" },
+    { id: 216, name: "Compact 4-Seater", price: "₹65,000", image: fourSeater7Img, category: "4 Seater" },
 
     // 6 Seater
-    { id: 220, name: "Grand 6-Seater Dining Set", price: "₹55,000", image: sixSeater1Img, category: "6 Seater" },
-    { id: 221, name: "Luxury 6-Seater Table", price: "₹62,500", image: sixSeater2Img, category: "6 Seater" },
-    { id: 222, name: "Royal 6-Seater Dining", price: "₹68,000", image: sixSeater3Img, category: "6 Seater" },
-    { id: 223, name: "Modern 6-Seater Set", price: "₹58,999", image: sixSeater4Img, category: "6 Seater" },
+    { id: 220, name: "Grand 6-Seater Dining Set", price: "₹1,10,000", image: sixSeater1Img, category: "6 Seater" },
+    { id: 221, name: "Luxury 6-Seater Table", price: "₹89,000", image: sixSeater2Img, category: "6 Seater" },
+    { id: 222, name: "Royal 6-Seater Dining", price: "₹1,35,000", image: sixSeater3Img, category: "6 Seater" },
+    { id: 223, name: "Modern 6-Seater Set", price: "₹1,64,000", image: sixSeater4Img, category: "6 Seater" },
 
     // 8 Seater
-    { id: 230, name: "Majestic 8-Seater Set", price: "₹85,000", image: eightSeater1Img, category: "8 Seater" },
-    { id: 231, name: "Imperial 8-Seater Dining", price: "₹92,500", image: eightSeater2Img, category: "8 Seater" },
-    { id: 232, name: "Large Family Dining Set", price: "₹88,000", image: eightSeater3Img, category: "8 Seater" },
-    { id: 233, name: "Executive 8-Seater Table", price: "₹95,000", image: eightSeater4Img, category: "8 Seater" },
+    { id: 230, name: "Majestic 8-Seater Set", price: "₹1,45,000", image: eightSeater1Img, category: "8 Seater" },
+    { id: 231, name: "Imperial 8-Seater Dining", price: "₹1,41,000", image: eightSeater2Img, category: "8 Seater" },
+    { id: 232, name: "Large Family Dining Set", price: "₹1,64,000", image: eightSeater3Img, category: "8 Seater" },
+    { id: 233, name: "Executive 8-Seater Table", price: "₹1,65,000", image: eightSeater4Img, category: "8 Seater" },
 
     // Furniture Items
-    { id: 240, name: "Premium Crockery Unit", price: "₹28,500", image: crockeryUnitsImg, category: "Storage" },
-    { id: 241, name: "Set of Dining Chairs", price: "₹12,000", image: diningChairsImg, category: "Chairs" },
-    { id: 242, name: "Complete Dining Suite", price: "₹1,10,000", image: diningMainImg, category: "Sets" },
+    { id: 240, name: "Premium Crockery Unit", price: "₹52,000", image: crockeryUnitsImg, category: "Storage" },
+    { id: 241, name: "Set of Dining Chairs", price: "₹18,000", image: diningChairsImg, category: "Chairs" },
+    { id: 242, name: "Complete Dining Suite", price: "₹1,65,000", image: diningMainImg, category: "Sets" },
     { id: 243, name: "Spacious Dining Setup", price: "₹75,000", image: diningBigImg, category: "Sets" },
-    { id: 244, name: "Classic Dining Table", price: "₹22,000", image: diningTablesImg, category: "Tables" },
-    { id: 245, name: "Modern Wood Table", price: "₹25,500", image: diningTable3Img, category: "Tables" },
+    { id: 244, name: "Classic Dining Table", price: "₹65,000", image: diningTablesImg, category: "Tables" },
+    { id: 245, name: "Modern Wood Table", price: "₹60,000", image: diningTable3Img, category: "Tables" },
     { id: 246, name: "Modular Kitchen Cabinet", price: "₹45,000", image: kitchenCabinetImg, category: "Kitchen" },
-    { id: 247, name: "Kitchen Wall Shelves", price: "₹8,500", image: kitchenShelvesImg, category: "Kitchen" },
+    { id: 247, name: "Kitchen Wall Shelves", price: "₹18,000", image: kitchenShelvesImg, category: "Kitchen" },
     { id: 248, name: "Large Kitchen Unit", price: "₹55,000", image: kitchenBigImg, category: "Kitchen" },
     { id: 249, name: "Complete Kitchen Setup", price: "₹1,50,000", image: kitchenMainImg, category: "Kitchen" },
 
@@ -110,8 +110,8 @@ const diningProducts = [
     { id: 255, name: "Designer Side Table", price: "₹6,500", image: sideTable1Img, category: "Tables" },
     { id: 256, name: "Vintage Bar Cabinet", price: "₹35,000", image: barCabinetsImg, category: "Bar" },
     { id: 257, name: "Mobile Bar Trolley", price: "₹18,500", image: barTrolleysImg, category: "Bar" },
-    { id: 258, name: "Compact Dining Set", price: "₹26,000", image: diningSetImg, category: "Sets" },
-    { id: 259, name: "Modular Kitchen Island", price: "₹52,000", image: modularKitchenImg, category: "Kitchen" },
+    { id: 258, name: "Compact Dining Set", price: "₹1,10,000", image: diningSetImg, category: "Sets" },
+    { id: 259, name: "Modular Kitchen Island", price: "₹1,85,000", image: modularKitchenImg, category: "Kitchen" },
 
     // Tables
     { id: 260, name: "Executive Office Table", price: "₹22,500", image: officeTable1Img, category: "Office" },

@@ -77,7 +77,7 @@ const FloatingActionBar = () => {
                 </a>
 
                 {/* 2. WhatsApp (Green) */}
-                <a href="https://api.whatsapp.com/send/?phone=916300821236&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="action-pill" style={{ ...pillStyle, backgroundColor: '#25D366' }}>
+                <a href="https://api.whatsapp.com/send/?phone=919392642078&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="action-pill" style={{ ...pillStyle, backgroundColor: '#25D366' }}>
                     <div style={{
                         marginRight: '10px',
                         display: 'flex',

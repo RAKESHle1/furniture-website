@@ -9,7 +9,24 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       workbox: {
-        globPatterns: ['**/*.{js,css,html,ico,png,svg}']
+        // Precache only the small app shell. Images are deliberately excluded:
+        // precaching them pushed ~113MB to every first-time visitor.
+        globPatterns: ['**/*.{js,css,html,ico,svg}'],
+        runtimeCaching: [
+          {
+            // Images are cached lazily, as the visitor actually views them.
+            urlPattern: ({ request }) => request.destination === 'image',
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'dcf-images',
+              expiration: {
+                maxEntries: 150,
+                maxAgeSeconds: 60 * 60 * 24 * 30
+              },
+              cacheableResponse: { statuses: [0, 200] }
+            }
+          }
+        ]
       },
       manifest: {
         name: 'DesignCraft Furniture',
